@@ -21,7 +21,14 @@ return {
 
 	LrPluginName = LOC( "$$$/CreateCollectionFromList/PluginName=Create Collection from List" ),
 
-	-- Add the menu item to the Library menu.
+	-- Add the menu item to the Export and Library menus.
+
+	LrExportMenuItems = {
+	    {
+		    title = LOC( "$$$/CreateCollectionFromList/ExportMenuItem=Create Collection from List" ),
+		    file = "CreateCollectionFromListMenuItem.lua",
+		},
+	},
 
 	LrLibraryMenuItems = {
 	    {
